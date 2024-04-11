@@ -83,3 +83,6 @@ xcrun simctl list devices
 npm run start:ios
 
 iPhone 15 (317DABBF-463B-4F82-9BFD-593E69039336) 
+
+# Correr cada vez que se haga combios dentro del directorio de IOS
+npx pod-install

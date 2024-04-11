@@ -37,6 +37,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PrimePartsCar/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PrimePartsCar/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-PrimePartsCar-PrimePartsCarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimePartsCar-PrimePartsCarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D299292BB11B5D002B6D98 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-PrimePartsCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimePartsCar.debug.xcconfig"; path = "Target Support Files/Pods-PrimePartsCar/Pods-PrimePartsCar.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-PrimePartsCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimePartsCar.release.xcconfig"; path = "Target Support Files/Pods-PrimePartsCar/Pods-PrimePartsCar.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-PrimePartsCar-PrimePartsCarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimePartsCar-PrimePartsCarTests.debug.xcconfig"; path = "Target Support Files/Pods-PrimePartsCar-PrimePartsCarTests/Pods-PrimePartsCar-PrimePartsCarTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +97,14 @@
 			name = PrimePartsCar;
 			sourceTree = "<group>";
 		};
+		27D299282BB11B3D002B6D98 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				27D299292BB11B5D002B6D98 /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +125,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				27D299282BB11B3D002B6D98 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* PrimePartsCar */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* PrimePartsCarTests */,
