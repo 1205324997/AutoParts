@@ -6,6 +6,7 @@ import { SettingsScreen } from '../screens/settings/SettingsScreen';
 import { LoginAuthentication } from '../authentication/LoginAuthentication';
 
 
+
 const Stack = createStackNavigator();
 
 export const StackNavigator = () => {
