@@ -22,7 +22,7 @@ export const HomeScreen = () => {
   return (
     <View style={globalStyle.container}>
       <Pressable
-      onPress={ () => navigation.navigate('Authentication' as never)}
+      onPress={ () => navigation.navigate('ClientSignup' as never)}
       style = {globalStyle.primaryButton}>
         <Text style={globalStyle.buttonText}>
           Registrate
